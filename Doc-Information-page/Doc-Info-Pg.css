@@ -1,0 +1,87 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-head {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2867B2; 
+}
+
+.content {
+    display: grid;
+    gap: 15px;
+}
+
+.input-box label {
+    font-weight: bold;
+    color: #333; 
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    border-color: #2867B2; 
+}
+
+.button {
+    text-align: right;
+}
+
+button,
+.submit {
+    padding: 10px 20px;
+    background-color: #2867B2; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover,
+.submit:hover {
+    background-color: #175285; /* Darker LinkedIn Blue */
+}
+
+/* Adjust the button alignment */
+.button button,
+.button .submit {
+    margin-right: 0;
+    margin-top: 0;
+}
